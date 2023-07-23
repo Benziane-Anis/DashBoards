@@ -1,5 +1,6 @@
 import 'package:dashbords/view/first_dashboard.dart';
 import 'package:dashbords/view/second_dashboard.dart';
+import 'package:dashbords/view/third_dashboard.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "/1": (context) => const FirstDashboard(),
         "/2": (context) => const SecondDashboard(),
+        "/3": (context) => const ThirdDashboard(),
       },
     );
   }

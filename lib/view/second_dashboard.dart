@@ -17,6 +17,12 @@ class _SecondDashboardState extends State<SecondDashboard> {
         title: const Text('Second Dashboard'),
         centerTitle: true,
         backgroundColor: Colors.greenAccent.shade400,
+        actions: [
+          IconButton(onPressed: () {
+            Navigator.pushNamed(context, "/3");
+          }, icon: Icon(Icons.arrow_forward)),
+
+        ],
       ),
       body: SafeArea(
         child: Stack(
