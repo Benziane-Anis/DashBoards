@@ -12,7 +12,7 @@ class ThirdDashboard extends StatelessWidget {
           showSelectedLabels: false,
           showUnselectedLabels: false,
           currentIndex: 0,
-          items: [
+          items: const [
             BottomNavigationBarItem(icon: SizedBox(
               height: 30,
               width: 30,
